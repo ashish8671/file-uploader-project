@@ -24,7 +24,7 @@ document
         const data = await response.json();
 
         document.getElementById("message")
-        .innerText = data.message;
+        .innerText = data.message;// Rohit
 
     } catch (error) {
 
