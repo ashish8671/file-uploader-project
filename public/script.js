@@ -19,12 +19,12 @@ document
         const response = await fetch("/upload", {
             method: "POST",
             body: formData
-        }); //this is only command 
+        });
 
         const data = await response.json();
 
         document.getElementById("message")
-        .innerText = data.message;// Rohit
+        .innerText = data.message;
 
     } catch (error) {
 
