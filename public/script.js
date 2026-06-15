@@ -19,7 +19,7 @@ document
         const response = await fetch("/upload", {
             method: "POST",
             body: formData
-        });
+        }); //this is only command 
 
         const data = await response.json();
 
